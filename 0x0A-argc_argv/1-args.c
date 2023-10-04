@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	(void)argv;
-	peintf("the number of arguments is :%d\n", argc - 1);
+	peintf("%d\n", argc - 1);
 
 	return (0);
 }
