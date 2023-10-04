@@ -1,5 +1,4 @@
 #include <stdio.h>;
-#include "main.h"
 
 /**
  * main - print all arguments it receives
@@ -8,7 +7,8 @@
  *
  * Return: 0(Success)
  */
-int main(int argc, char *argv[])
+
+int main(int argc, char const *argv[])
 {
 	int i;
 
