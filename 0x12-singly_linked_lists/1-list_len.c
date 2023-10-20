@@ -3,18 +3,18 @@
 
 /**
  * list_len - returns the number of elements in a linked list
- * @f: pointer to the list_t list
+ * @h: pointer to the list_t list
  *
- * Return: number of elements in f
+ * Return: number of elements in h
  */
-size_t list_len(const list_t *f)
+size_t list_len(const list_t *h)
 {
 	size_t n = 0;
 
-	while (f)
+	while (h)
 	{
 		n++;
-		f = f->next;
+		h = h->next;
 	}
 	return (n);
 }
